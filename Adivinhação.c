@@ -56,7 +56,7 @@ int main(){
     
     for(int i = 1; i <= tentar; i++){
         printf("\nTentativa %d:\n", tentativa);
-        printf("Qual o seu palpite? ");
+        printf("Qual o seu palpite? (Número entre 0 e 200) "); // Determina um intervalo numérico que pode ser gerado.
         scanf("%d", &palpite);
         tentativa ++;
 
