@@ -38,7 +38,7 @@ int main(){
     printf("\nQual o nível de dificuldade?\n");
     printf("(1) Fácil\n");
     printf("(2) Médio\n");
-    printf("(1) DIfícil\n\n");
+    printf("(3) DIfícil\n\n");
     scanf("%d", &nivel);
 
     int tentar; //número de tentativas por nível
@@ -133,5 +133,6 @@ int main(){
         printf("\n\n                                                      \n");
 
         printf("Poxa! Você perdeu! Tente novamente!!\n");
+        printf("O número secreto é %d", num_sec);
     }    
 }
